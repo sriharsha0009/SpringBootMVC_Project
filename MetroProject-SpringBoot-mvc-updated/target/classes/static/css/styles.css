@@ -1,0 +1,205 @@
+@charset "ISO-8859-1";
+a:link, a:visited {
+  background-color:#f44336;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+.center {
+  text-align: center;
+  border: 3px solid green;
+ 
+}
+.center1 {
+  padding: 70px 0;
+  border: 3px solid green;
+  text-align: center;
+  
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+.bg-image {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1556695736-d287caebc48e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWV0cm98ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+  
+  /* Add the blur effect */
+  filter: blur(3px);
+  -webkit-filter: blur(5px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 9px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 2px;
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgb(0, 255, 0),0 17px 50px 0 rgrgb(0, 128, 0);
+ 
+  border: 2px solid #4CAF50;
+}
+
+.button1 {
+  background-color: #ff8040; /* Green */
+  border: none;
+  color: white;
+  padding: 9px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 2px;
+  width:20%;
+}
+.button1:hover {
+  box-shadow: 0 12px 16px 0 rgb(0, 255, 255),0 17px 50px 0 rgrgb(0, 128, 255);
+  
+  border: 2px solid orange;
+}
+
+input[type=text]{
+  width: 25%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ justify-content: center;
+  display: flex;
+}
+
+li,h {
+  float: right;
+}
+
+
+#table1 {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+   margin-left: auto; 
+  margin-right: auto;
+   
+}
+
+#table1 td, #table1 th {
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+
+#table1 tr:nth-child(even){background-color: #bdd1b8;}
+
+#table1 tr:hover {background-color: #80b476;}
+
+#table1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+
+select {
+  margin: 10px;
+  width: 150px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #CCC;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyC0HYtcwlqyS-Vk6zwR4COx4UEqndSfe-Xw&usqp=CAU) 96% / 15% no-repeat #EEE;
+}
+
+
+select::-ms-expand {
+    display: none; /* Remove default arrow in Internet Explorer 10 and 11 */
+}
+
+/* Target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+    select {
+        background: none\9;
+        padding: 1px\9;
+    }
+}
+#ongoing{
+	color:red;
+}
+#logout:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#logout:hover, a:active {
+  background-color: red;
+}
+.h{
+	color:orange;
+}
